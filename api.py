@@ -9,7 +9,7 @@ def landing_page():
 
 @app.route("/dashboard")
 def dashboard():
-    return render_template('ÑAÑAAÑÑAÑAÑAÑAÑÑA.html')
+    return render_template('dashboard.html')
 
 @app.route("/map")
 def map():
